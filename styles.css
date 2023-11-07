@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.base{
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.first{
+  background-color: #1f2937;
+}
+nav {
+  padding-bottom: 60px;
+}
+ul {
+  list-style-type: none;
+  align-items: baseline;
+  display: flex;
+  gap: 16px;
+}
+ul a{
+  text-decoration: none;
+  color: inherit;
+}
+li{
+  margin-top: 10px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+li.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  margin-right: auto;
+}
+.awesome {
+  display: flex;
+  padding-bottom: 60px;
+  /* justify-content: center;
+  align-items: center; */
+
+}
+
+.awesome div{
+  flex: 1;
+}
+.image{
+  background-color: grey;
+  padding: 0;
+  color: white;
+  text-align: center;
+  padding: auto;
+}
+.hero {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+.belowhero{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.box4 {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 40px;
+}
+.box4 div{
+  flex: 1;
+  text-align: center;
+
+}
+.third{
+  background-color: lightGray;
+}
+.quote{
+  font-size: 36px;
+  font-weight: light;
+  font-style:  italic;
+  color: #1f2937;
+}
+.bquote h3{
+  text-align: right;
+}
+.random{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+}
+.out{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+.inbase{
+  background-color: #3382f6;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.forth{
+  display: flex;
+  padding: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+.forth div{
+  flex:1;
+}
+.forth .call{
+  color: white;
+  flex-grow: 2;
+
+}
+button{
+  background-color: #3382f6;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+}
+.footer {
+  background-color: #1f2937; /* Footer background color */
+  color: #ccc; /* Text color for the copyright notice */
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  margin: 15px;
+  font-size: 14px;
+}
+.bquote{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 40px;
+}
+.box{
+  border: 4px solid #3382f6;
+  height: 160px;
+  border-radius: 10px;
+}
